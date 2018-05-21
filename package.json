@@ -1,0 +1,26 @@
+{
+  "name": "edge-lexer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "flow-remove-types src/ -d dist/",
+    "flow": "flow"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "dedent": "^0.7.0",
+    "japa": "^1.0.6",
+    "japa-cli": "^1.0.1",
+    "typedoc": "^0.11.1",
+    "typedoc-plugin-external-module-name": "^1.1.1",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "collapse-white-space": "^1.0.4",
+    "whitespace-regex": "^0.1.2"
+  }
+}

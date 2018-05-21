@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "declarationDir": "types/",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "test/**"
+  ]
+}
